@@ -1,0 +1,23 @@
+{
+  "name": "issue_tracker",
+  "version": "1.0.0",
+  "description": "this is my issue tracker project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gopi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-ejs-layouts": "^2.5.1",
+    "git": "^0.1.5",
+    "mongoose": "^7.3.2",
+    "nodemon": "^2.0.22"
+  }
+}
